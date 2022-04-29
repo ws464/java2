@@ -5,12 +5,18 @@ an object knows how to do one thing extremely well.
 
 Assignments are located [here](assignments.md).
 
-# Pillars of Object Oriented Programming (A PIE C)
+# Pillars of Object Oriented Programming
+Crusty Apple PIE?
+- **C**omposition
 - **A**bstraction
 - **P**olymoripshm
 - **I**nheritance
 - **E**ncapsulation
-- **C**omposition
+
+#### Composition
+Compositions (Aggregation) is when an object contains another object.  Objects that contain many other objects
+can be hard to test.  Composition leads to objects that are tightly dependent on each other.  Dependency
+injection is a programming technique that reduces the tight dependency between objects.
 
 #### Abstraction
 To abstract something means to hide away the implementation details.  When you call the function you don't have to understand exactly what it is doing.
@@ -40,11 +46,6 @@ Inheritance lets one object acquire the properties and methods of another object
   - `implements`?
 - Java only supports single inheritance, other languages such as Python support multiple inheritance
 - The `public` and `protected` properties are fully accesible
- 
-#### Composition
-Compositions (Aggregation) is when an object contains another object.  Objects that contain many other objects
-can be hard to test.  Composition leads to objects that are tightly dependent on each other.  Dependency 
-injection is a programming technique that reduces the tight dependency between objects.
 
 # The Golden Rule
 A method is a subroutine or a function, but not both.  A subroutine is code that possibly changes the 
