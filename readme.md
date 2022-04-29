@@ -5,12 +5,12 @@ an object knows how to do one thing extremely well.
 
 Assignments are located [here](assignments.md).
 
-# Pillars of Object Oriented Programming
-- Abstraction
-- Encapsulation
-- Polymoripshm
-- Inheritance
-- Composition
+# Pillars of Object Oriented Programming (A PIE C)
+- **A**bstraction
+- **P**olymoripshm
+- **I**nheritance
+- **E**ncapsulation
+- **C**omposition
 
 #### Abstraction
 To abstract something means to hide away the implementation details.  When you call the function you don't have to understand exactly what it is doing.
@@ -20,6 +20,12 @@ To abstract something means to hide away the implementation details.  When you c
   - `abstract`
   - Methods/functions
 
+#### Polymoripshm
+Polymorphism means "the condition of occurring in several different forms." That's exactly what the fourth and final pillar is concerned with – types in the same inheritance chains being able to do different things.
+- Keywords
+  - `@Override`
+  - `abstract`
+  
 #### Encapsulation
 The definition of encapsulation is "the action of enclosing something in or as if in a capsule". People often refer to this as data hiding.
 - Keywords
@@ -34,13 +40,7 @@ Inheritance lets one object acquire the properties and methods of another object
   - `implements`?
 - Java only supports single inheritance, other languages such as Python support multiple inheritance
 - The `public` and `protected` properties are fully accesible
-
-#### Polymoripshm
-Polymorphism means "the condition of occurring in several different forms." That's exactly what the fourth and final pillar is concerned with – types in the same inheritance chains being able to do different things.
-- Keywords
-  - `@Override` 
-  - `abstract`
-  
+ 
 #### Composition
 Compositions (Aggregation) is when an object contains another object.  Objects that contain many other objects
 can be hard to test.  Composition leads to objects that are tightly dependent on each other.  Dependency 
