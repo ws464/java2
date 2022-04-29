@@ -1,7 +1,8 @@
 # Java Intro Object Oriented Programming (OOP)
 OOP is the tasteful interaction between objects to achieve a common goal.  In a proper object oriented solution
-all the objects share the same level of responsibility (weight).  All the objects follow the single responsibility model, 
-an object knows how to do one thing extremely well.
+all the objects share the same level of responsibility (weight).  All the objects follow the Single Responsibility 
+Principal (SRP), an object knows how to do one thing extremely well.  A group of objects that work together can
+be organized into a package.
 
 Assignments are located [here](assignments.md).
 
@@ -19,7 +20,7 @@ can be hard to test.  Composition leads to objects that are tightly dependent on
 injection is a programming technique that reduces the tight dependency between objects.
 
 #### Abstraction
-To abstract something means to hide away the implementation details.  When you call the function you don't have to understand exactly what it is doing.
+To abstract something means to hide away the implementation details.  When you call/use the function you don't have to understand exactly what it is doing.
 - Keywords/concepts:
   - `class`
   - `interface`
