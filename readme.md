@@ -4,6 +4,8 @@ all the objects share the same level of responsibility (weight).  All the object
 Principal (SRP), an object knows how to do one thing extremely well.  A group of objects that work together can
 be organized into a package.
 
+Objects can be `null` whereas primitive types cannot.
+
 Assignments are located [here](assignments.md).
 
 # Pillars of Object Oriented Programming
@@ -15,7 +17,7 @@ Crusty Apple PIE?
 - **E**ncapsulation
 
 #### Composition
-Compositions (Aggregation) is when an object contains another object.  Objects that contain many other objects
+Composition (Aggregation) is when an object contains another object.  Objects that contain many other objects
 can be hard to test.  Composition leads to objects that are tightly dependent on each other.  Dependency
 injection is a programming technique that reduces the tight dependency between objects.
 

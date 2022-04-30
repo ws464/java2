@@ -1,28 +1,41 @@
 # Java Intro OOP Assignments
 
-# Ex. 1
-- Person
+# Ex. 1 Person
+Create a Person class that is consumed in the following manner:
+```java
+        var p1 = new Person();
+        var p2 = new Person("Jon", "Smith");
+        var p3 = new Person("Mary", "Jane", (byte) 12, 123456789);
 
-# Ex. 2
-- Animal class
+        System.out.println(p1.speak());
+        System.out.println(p2.speak());
+        System.out.println(p3.speak());
 
-# Ex. 3
-- Dog, cat class
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(p3);
 
-# Ex. 4
-- Calculator
+        System.out.println("Person count: " + Person.getPersonCount());
+```
 
-# Ex. 5
-- AwesomeInteger
+Output:
+```
+I don't have a name.
+My name is Jon Smith.
+My name is Mary Jane and I am 12 years old.
+N/A
+Jon Smith
+Mary Jane 6789
+Person count: 3
+```
 
-# Ex 6.
-- Polymorphism
+# Ex. 2 Awesome Number
 
-# Ex 7.
+# Ex. 3 Calculator
 
-# Ex 8.
+# Ex. 4 Shopping Cart
 
-# Ex 9.
+# Ex. 5 Polymorphism
 
-# Ex 10.
+
 
