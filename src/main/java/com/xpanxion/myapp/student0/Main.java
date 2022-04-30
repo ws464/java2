@@ -1,10 +1,20 @@
 package com.xpanxion.myapp.student0;
 
+import java.beans.beancontext.BeanContextMembershipEvent;
+
 public class Main {
     public static void main(String[] args) {
 
-        ex3();
+        ex4();
 
+    }
+
+    private static void ex4() {
+        var shoppingCart = new ShoppingCart();
+        shoppingCart.addItem(new Item(2.00F, 4, "Socks"));
+        shoppingCart.addItem(new Item(10.00F, 2, "Shirts"));
+        shoppingCart.calculateTotal();
+        System.out.println(shoppingCart.getTotal());
     }
 
     private static void ex3() {

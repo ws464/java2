@@ -93,9 +93,27 @@ Ouput
 
 # Ex. 4 Shopping Cart
 
+Create a `ShoppingCart` that can be consumed in the following manner:
 
+```java
+var shoppingCart = new ShoppingCart();
+shoppingCart.addItem(new Item(2.00F, 4, "Socks"));
+shoppingCart.addItem(new Item(10.00F, 2, "Shirts"));
+shoppingCart.calculateTotal();
+System.out.println(shoppingCart.getTotal());
+```
+
+The `ShoppingCart` contains a private `ArrayList` of `Items`.
+
+Output
+```
+$28.00
+```
 
 # Ex. 5 Polymorphism
+
+
+# Ex. 6 OOP Design & Implementation
 
 
 
