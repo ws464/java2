@@ -3,6 +3,20 @@ package com.xpanxion.myapp.student0;
 public class Main {
     public static void main(String[] args) {
 
+        ex2();
+
+    }
+
+    private static void ex2() {
+        var n1 = new AwesomeNumber(4);
+        var n2 = new AwesomeNumber(2);
+        var result1 = AwesomeNumber.add(n1, n2);
+        var result2 = AwesomeNumber.subtract(n1, n2);
+        System.out.println(result1);
+        System.out.println(result2);
+    }
+
+    private static void ex1() {
         var p1 = new Person();
         var p2 = new Person("Jon", "Smith");
         var p3 = new Person("Mary", "Jane", (byte) 12, 123456789);
@@ -17,5 +31,6 @@ public class Main {
 
         System.out.println("Person count: " + Person.getPersonCount());
     }
+
 }
 

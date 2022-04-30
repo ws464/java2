@@ -1,21 +1,21 @@
 # Java Intro OOP Assignments
 
 # Ex. 1 Person
-Create a Person class that is consumed in the following manner:
+Create a `Person` class that can be consumed in the following manner:
 ```java
-        var p1 = new Person();
-        var p2 = new Person("Jon", "Smith");
-        var p3 = new Person("Mary", "Jane", (byte) 12, 123456789);
+var p1 = new Person();
+var p2 = new Person("Jon", "Smith");
+var p3 = new Person("Mary", "Jane", (byte) 12, 123456789);
 
-        System.out.println(p1.speak());
-        System.out.println(p2.speak());
-        System.out.println(p3.speak());
+System.out.println(p1.speak());
+System.out.println(p2.speak());
+System.out.println(p3.speak());
 
-        System.out.println(p1);
-        System.out.println(p2);
-        System.out.println(p3);
+System.out.println(p1);
+System.out.println(p2);
+System.out.println(p3);
 
-        System.out.println("Person count: " + Person.getPersonCount());
+System.out.println("Person count: " + Person.getPersonCount());
 ```
 
 Output:
@@ -31,7 +31,28 @@ Person count: 3
 
 # Ex. 2 Awesome Number
 
+Create an `AwesomeNumber` class that can be consumed in the following manner:
+
+```java
+var n1 = new AwesomeNumber(4);
+var n2 = new AwesomeNumber(2);
+var result1 = AwesomeNumber.add(n1, n2);
+var result2 = AwesomeNumber.subtract(n1, n2);
+System.out.println(result1);
+System.out.println(result2);
+```
+
+The `AwesomeNumber` class wraps the primitive `int` type.
+
+Output
+```
+6
+2
+```
+
 # Ex. 3 Calculator
+
+
 
 # Ex. 4 Shopping Cart
 
