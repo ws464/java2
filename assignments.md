@@ -86,7 +86,7 @@ System.out.println(result4);
 System.out.println(calculator.getHistory());
 ```
 
-Ouput
+Output
 ```
 3
 2
@@ -96,6 +96,8 @@ Ouput
 ```
 
 # Ex. 5 Shopping Cart
+
+#### Part A
 
 Create a `ShoppingCart` that can be consumed in the following manner:
 
@@ -113,6 +115,11 @@ Output
 ```
 $28.00
 ```
+
+#### Part B
+Add an additional constructor to the `ShoppingCart` that accepts a shipping charge as a 
+parameter.  The shipping charge is applied to orders under $10.00.  Orders over $10.00 ship
+for free.  Also, add an additional sales tax of 10% to all orders.
 
 # Ex. 6 Classic Polymorphism
 
