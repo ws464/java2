@@ -29,7 +29,11 @@ Mary Jane 6789
 Person count: 3
 ```
 
-# Ex. 2 Awesome Number
+# Ex. 2 Person Refactor
+Refactor the `Person` class to extend a class called `Animal`.  Move the `age` from the `Person`
+class to the `Animal` class. Create a `Dog` and `Cat` class that subclasses the `Animal` class.
+
+# Ex. 3 Awesome Number
 
 Create an `AwesomeNumber` class that can be consumed in the following manner:
 
@@ -50,7 +54,7 @@ Output
 2
 ```
 
-# Ex. 3 Calculator
+# Ex. 4 Calculator
 
 Create a `Calculator` class that implements the following interface:
 
@@ -91,7 +95,7 @@ Ouput
 [1 + 2 = 3, 4 + 2 = 2, 10 / 5 = 2, 2 * 2 = 4]
 ```
 
-# Ex. 4 Shopping Cart
+# Ex. 5 Shopping Cart
 
 Create a `ShoppingCart` that can be consumed in the following manner:
 
@@ -110,10 +114,32 @@ Output
 $28.00
 ```
 
-# Ex. 5 Polymorphism
+# Ex. 6 Classic Polymorphism
 
+Create a `Square` and `Rectangle` class that extends an abstract class called `Shape` that 
+is consumed in the following manner:
 
-# Ex. 6 OOP Design & Implementation
+```java
+var shapes = new ArrayList<Shape>();
+shapes.add(new Square(3));
+shapes.add(new Rectangle(10,3));
+for (Shape s : shapes) {
+    System.out.println(s.draw());
+}
+```
+
+Output:
+```
+***
+* *
+***
+
+**********
+*        *
+**********
+```
+
+# Ex. 7 OOP Design & Implementation
 
 
 
