@@ -52,6 +52,23 @@ Output
 
 # Ex. 3 Calculator
 
+Create a `Calculator` class that implements the following interface:
+
+```Java
+public interface Calculatable {
+
+    Integer add(Integer number1, Integer number2);
+    Integer subtract(Integer number1, Integer number2);
+    Integer multiply(Integer number1, Integer number2);
+    Integer divide(Integer number1, Integer number2);
+
+    String getHistory();
+}
+```
+
+The `Calculator` class can be consumed in the following manner:
+
+
 
 
 # Ex. 4 Shopping Cart
