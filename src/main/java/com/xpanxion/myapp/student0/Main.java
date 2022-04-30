@@ -1,12 +1,22 @@
 package com.xpanxion.myapp.student0;
 
 import java.beans.beancontext.BeanContextMembershipEvent;
+import java.util.ArrayList;
+import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
 
-        ex4();
+        ex5();
+    }
 
+    private static void ex5() {
+        var shapes = new ArrayList<Shape>();
+        shapes.add(new Square(3));
+        shapes.add(new Rectangle(2,3));
+        for (Shape s : shapes) {
+            System.out.println(s.draw());
+        }
     }
 
     private static void ex4() {

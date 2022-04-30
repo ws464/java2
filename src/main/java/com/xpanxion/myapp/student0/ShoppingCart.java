@@ -4,14 +4,14 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class ShoppingCart {
+public final class ShoppingCart {
 
     //
     // Data Members
     //
 
-    private ArrayList<Item> items;
     private float total;
+    private final ArrayList<Item> items;
 
     //
     // Constructors
@@ -41,20 +41,9 @@ public class ShoppingCart {
 
     public void calculateTotal() {
         float tempTotal = 0;
-
         for (Item i: items) {
             tempTotal += i.calculateTotal();
         }
-
         this.total = tempTotal;
     }
-
-    //
-    // Overrides
-    //
-
-    //
-    // Private Methods
-    //
-
 }
