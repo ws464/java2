@@ -6,7 +6,7 @@ public final class Square extends Shape{
     // Data Members
     //
 
-    private int size;
+    private final int size;
 
     //
     // Constructors
@@ -16,25 +16,8 @@ public final class Square extends Shape{
         this.size = size;
     }
 
-    //
-    // Accessors
-    //
-
-    //
-    // Public Methods
-    //
-
-    //
-    // Overrides
-    //
-
     @Override
     String draw() {
         return "Draw Square: " + this.size;
     }
-
-    //
-    // Private Methods
-    //
-
 }

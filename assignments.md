@@ -117,7 +117,7 @@ $28.00
 # Ex. 6 Classic Polymorphism
 
 Create a `Square` and `Rectangle` class that extends an abstract class called `Shape` that 
-is consumed in the following manner:
+can be consumed in the following manner:
 
 ```java
 var shapes = new ArrayList<Shape>();
