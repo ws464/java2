@@ -2,6 +2,30 @@ package com.xpanxion.myapp.student6;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("I'm student 6.");
+        ex1();
+        // ex2();
+        // ex3();
+        // ex4();
+        // ex5();
+    }
+
+    private static void ex1() {
+        System.out.println("Todo...");
+    }
+
+    private static void ex2() {
+        System.out.println("Todo...");
+    }
+
+    private static void ex3() {
+        System.out.println("Todo...");
+    }
+
+    private static void ex4() {
+        System.out.println("Todo...");
+    }
+
+    private static void ex5() {
+        System.out.println("Todo...");
     }
 }
