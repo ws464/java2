@@ -121,6 +121,37 @@ Add an additional constructor to the `ShoppingCart` that accepts a shipping char
 parameter (e.g. $5.00).  The shipping charge is applied to orders less than $10.00.  Orders over $10.00 ship
 for free.  Also, add an additional sales tax of 10% to all orders.
 
+#### Part C
+Add a method to the shopping cart call `shipOrder()`.  This method returns object of type
+`Invoice` and accepts the following parameters:
+
+- Name
+- Street Address
+- City
+- State
+- Zip
+
+Override the `toString()` method on the `Invoice` object to produce the following
+output:
+
+```
+Ship to:
+  Jon Smith
+  123 Green Street
+  Austin, TX 78737
+
+Items
+-----
+Socks  $2.00  (4)   $8.00
+Shirts $10.00 (2)  $20.00
+
+Shipping: Free
+
+Total Cost
+---------
+$28.00
+```
+
 # Ex. 6 Classic Polymorphism
 
 Create a `Square` and `Rectangle` class that extends an abstract class called `Shape` that 
@@ -138,15 +169,10 @@ for (Shape s : shapes) {
 Output:
 ```
 ***
-* *
+* *  <== Pretend this resembles a square.
 ***
 
 **********
 *        *
 **********
 ```
-
-# Ex. 7 OOP Design & Implementation
-
-
-
