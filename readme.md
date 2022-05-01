@@ -81,3 +81,5 @@ does NOT change the state of the object.
 [Inheritance](https://www.tutorialspoint.com/java/java_inheritance.htm)
 [Composition](https://www.geeksforgeeks.org/composition-in-java/)
 [UML](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml/)
+[Null Billion-Dollar Mistake](https://en.wikipedia.org/wiki/Tony_Hoare)
+
