@@ -66,7 +66,7 @@ public interface Calculatable {
     Integer multiply(Integer number1, Integer number2);
     Integer divide(Integer number1, Integer number2);
 
-    ArrayList<String> getHistory();
+    String getHistory();
 }
 ```
 
@@ -133,6 +133,18 @@ Add a method to the shopping cart call `shipOrder()`.  This method returns objec
 
 Override the `toString()` method on the `Invoice` object to produce the following
 output:
+
+Usage:
+
+```java
+var shoppingCart = new ShoppingCart();
+shoppingCart.addItem(new Item(2.00F, 4, "Socks"));
+shoppingCart.addItem(new Item(10.00F, 2, "Shirts"));
+shoppingCart.calculateTotal();
+var invoice = shoppingCart.shipOrder("Jon Smith", "123 Green Street", "Austin", "TX", 78737);
+System.out.println(invoice);
+```
+
 
 ```
 Ship to:

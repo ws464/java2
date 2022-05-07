@@ -27,6 +27,18 @@ public class Item {
     // Accessors
     //
 
+    public float getPrice() {
+        return price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     //
     // Public Methods
     //

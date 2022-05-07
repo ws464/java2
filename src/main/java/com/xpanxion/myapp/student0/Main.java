@@ -7,7 +7,7 @@ import java.util.Objects;
 public class Main {
     public static void main(String[] args) {
 
-        ex5();
+        ex4();
     }
 
     private static void ex5() {
@@ -19,12 +19,15 @@ public class Main {
         }
     }
 
-    private static void ex4() {
-        var shoppingCart = new ShoppingCart();
+    private static void ex4()  {
+        //var shoppingCart = new ShoppingCart();
+        var shoppingCart = new ShoppingCart(5.00F);
         shoppingCart.addItem(new Item(2.00F, 4, "Socks"));
         shoppingCart.addItem(new Item(10.00F, 2, "Shirts"));
         shoppingCart.calculateTotal();
-        System.out.println(shoppingCart.getTotal());
+        //System.out.println(shoppingCart.getTotal());
+        var invoice = shoppingCart.shipOrder("Jon Smith", "123 Green Street", "Austin", "TX", 78737);
+        System.out.println(invoice);
     }
 
     private static void ex3() {
