@@ -22,6 +22,16 @@ public final class Rectangle extends Shape {
 
     @Override
     String draw() {
-        return "Rectangle: " + this.width + " " + this.height;
+        String retval = "";
+        if (width == 1 && height == 1) {
+            retval = "*";
+        } else {
+            retval += ("*".repeat(width) + "\n"); // Draw top
+            for (int i = 0; i < height - 2; i++) { // Draw body
+                retval += ("*" + " ".repeat(width - 2) + "*\n");
+            }
+            retval += ("*".repeat(width) + "\n"); // Draw bottom
+        }
+        return retval;
     }
 }

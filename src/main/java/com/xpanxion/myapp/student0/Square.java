@@ -18,6 +18,16 @@ public final class Square extends Shape{
 
     @Override
     String draw() {
-        return "Draw Square: " + this.size;
+        String retval = "";
+        if (size == 1) {
+            retval = "*";
+        } else {
+            retval += ("*".repeat(size) + "\n"); // Draw top
+            for (int i = 0; i < size - 2; i++) { // Draw body
+                retval += ("*" + " ".repeat(size - 2) + "*\n");
+            }
+            retval += ("*".repeat(size) + "\n"); // Draw bottom
+        }
+        return retval;
     }
 }

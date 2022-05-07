@@ -36,7 +36,7 @@ public class Invoice {
 
     @Override
     public String toString() {
-        var address = createAddress();
+        var address = createShipToAddress();
         var items = createItems();
         var summary = createSummary();
         return address + items + summary;
@@ -46,7 +46,7 @@ public class Invoice {
     // Private methods
     //
 
-    private String createAddress() {
+    private String createShipToAddress() {
         var retval = "";
         retval = "Ship to:\n";
         retval += "\t" + name + "\n";
