@@ -58,7 +58,7 @@ public class Invoice {
     private String createItems() {
         var retval = "Items\n-----\n";
         for (Item i : shoppingCart.getItems()) {
-            retval += (i.getDescription() + "\t" + formatter.format(i.getPrice()) + "\t" + "(" + i.getQuantity() + ")" + "\t" + formatter.format(i.getPrice())) + "\n";
+            retval += (i.getDescription() + "\t" + formatter.format(i.getPrice()) + "\t" + "(" + i.getQuantity() + ")" + "\t" + formatter.format(i.getQuantity() * i.getPrice())) + "\n";
         }
         retval += "\n";
         return retval;

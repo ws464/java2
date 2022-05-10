@@ -9,8 +9,23 @@ public class Main {
 //        ex1();
 //        ex2();
 //        ex4();
-//        ex5();
-        ex6();
+        ex5();
+//        ex6();
+
+
+
+    }
+
+    private void printMessage(int numTimes) {
+        System.out.println("Hello");
+        System.out.println("Hello");
+        System.out.println("Hello");
+    }
+
+    private void printMessage2(int numTimes) {
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Hello");
+        }
     }
 
     private static void ex1() {
