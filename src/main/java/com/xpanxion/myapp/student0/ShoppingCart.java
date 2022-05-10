@@ -71,7 +71,7 @@ public final class ShoppingCart {
             tempTotal += shippingCharge;
             isShippingCharged = true;
         }
-        this.total = tempTotal;
+        total = tempTotal;
     }
 
     public Invoice shipOrder(String name, String address, String city, String state, int zip) {
