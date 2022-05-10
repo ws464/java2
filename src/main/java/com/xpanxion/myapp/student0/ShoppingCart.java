@@ -36,8 +36,7 @@ public final class ShoppingCart {
     //
 
     public String getTotal() {
-        Locale locale = new Locale("en", "US");
-        NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(locale);
+        NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance();
         return currencyFormatter.format(total);
     }
 

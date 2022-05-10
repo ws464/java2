@@ -46,12 +46,4 @@ public class Item {
     public float calculateTotal() {
         return this.price * this.quantity;
     }
-
-    //
-    // Overrides
-    //
-
-    //
-    // Private Methods
-    //
 }
