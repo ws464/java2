@@ -9,8 +9,14 @@ public class Main {
 //        ex1();
 //        ex2();
 //        ex4();
-        ex5();
+//        ex5();
 //        ex6();
+
+
+        junk();
+    }
+
+    private static void junk() {
 
 
 

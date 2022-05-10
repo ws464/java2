@@ -23,12 +23,12 @@ public final class ShoppingCart {
     //
 
     ShoppingCart() {
-        items = new ArrayList<>();
+        this.items = new ArrayList<>();
     }
 
     ShoppingCart(float shippingCharge) {
         this.shippingCharge = shippingCharge;
-        items = new ArrayList<>();
+        this.items = new ArrayList<>();
     }
 
     //
