@@ -6,20 +6,11 @@ import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
-//        ex1();
+        ex1();
 //        ex2();
 //        ex4();
-        ex5();
+//        ex5();
 //        ex6();
-
-
-        //junk();
-    }
-
-    private static void junk() {
-
-
-
     }
 
     private void printMessage(int numTimes) {
