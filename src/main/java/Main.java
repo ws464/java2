@@ -1,5 +1,3 @@
-package com.xpanxion.myapp.student22;
-
 public class Main {
     public static void main(String[] args) {
         ex1();
@@ -26,6 +24,6 @@ public class Main {
     }
 
     private static void ex5() {
-        System.out.println("Todo...");
+        System.out.println("Todo....");
     }
 }
