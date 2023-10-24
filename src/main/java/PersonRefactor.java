@@ -1,16 +1,16 @@
-public class Person extends Animal{
+public class PersonRefactor extends Animal{
         private byte age=-1;
         private String name="";
         private int id=-1;
         private static int personCount=0;
-        public Person(){
+        public PersonRefactor(){
             personCount++;
         }
-        public Person(String first, String last){
+        public PersonRefactor(String first, String last){
             this.name = first+" "+last;
             personCount++;
         }
-        public Person(String first, String last, byte age, int id){
+        public PersonRefactor(String first, String last, byte age, int id){
             this.name = first+" "+last;
             this.age=age;
             this.id=id; 

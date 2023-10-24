@@ -24,9 +24,9 @@ public class Main {
     }
 
     private static void ex2() {
-         var p1 = new Person();
-        var p2 = new Person("Jon", "Smith");
-        var p3 = new Person("Mary", "Jane", (byte) 12, 123456789);
+         var p1 = new PersonRefactor();
+        var p2 = new PersonRefactor("Jon", "Smith");
+        var p3 = new PersonRefactor("Mary", "Jane", (byte) 12, 123456789);
 
         System.out.println(p1.speak());
         System.out.println(p2.speak());
@@ -36,7 +36,7 @@ public class Main {
         System.out.println(p2);
         System.out.println(p3);
 
-        System.out.println("Person count: " + Person.getPersonCount());
+        System.out.println("Person count: " + PersonRefactor.getPersonCount());
 
         var d1 = new Dog();
         var d2 = new Dog("Jon", "Smith");
