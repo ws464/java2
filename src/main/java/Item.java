@@ -6,9 +6,10 @@ public class Item{
             this.price=price;this.quantity=quantity; this.name=name;
         }
         public String toString(){
-            return this.name;
+            return String.format("%s $%s (%d) $%s", this.name, Double.toString(this.price), this.quantity, Double.toString(this.totalPrice()));
         }
         public float totalPrice(){
             return price*quantity;
         }
+        
     }
